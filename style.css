@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'caviar_dreamsbold';
+    src: url('Caviar_Dreams_Bold-webfont.eot');
+    src: url('Caviar_Dreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Caviar_Dreams_Bold-webfont.woff') format('woff'),
+         url('Caviar_Dreams_Bold-webfont.ttf') format('truetype'),
+         url('Caviar_Dreams_Bold-webfont.svg#caviar_dreamsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'capture_itregular';
+    src: url('Capture_it-webfont.eot');
+    src: url('Capture_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Capture_it-webfont.woff') format('woff'),
+         url('Capture_it-webfont.ttf') format('truetype'),
+         url('Capture_it-webfont.svg#capture_itregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media screen and (max-width: 1024px)
+{
+    .sidebar
+    {
+        display: none;
+    }
+    #conteneur
+    {
+        flex-direction: column;
+        width: auto;
+    }
+    .imageflottante
+    {
+        width: 10%;
+        height: 10%;
+    }
+    footer 
+    {
+        float:bottom;
+        
+    }
+}
+
+.sidebar {
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+    top:1%;
+    width: 80px;
+    height: 80%px;
+    background:url('images/noir_text.jpg');
+    border-radius: 5px;
+}
+
+h1,h3 {
+	font-family: 'caviar_dreamsbold',arial,serif;
+	text-align: center;
+	text-shadow: 5px 10px 2px black;
+}
+
+h1:hover
+{
+text-decoration: none;
+color: #7BA6FE;
+}
+
+h2{
+	color: rgb(79, 79, 79);
+	text-decoration: underline;
+}
+
+body
+{
+    
+    background-image:linear-gradient(white, orange);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.imageflottante 
+{
+
+    float: right;
+    margin-right: 10px;
+    margin-top: -100px;
+    border: 5px black double;
+}
+
+.icfacebook 
+{
+    height: 40px;
+    float: right;
+    margin-top: -40px;
+    margin-right: 60px;
+}
+
+.ictwitter 
+{
+    height: 40px;
+    float: right;
+    margin-top: -40px;   
+}
+
+strong 
+{
+    font-family: 'capture_itregular',arial,serif;
+}
+
+#conteneur 
+{
+	display:flex;	
+    justify-content: space-between;
+	margin-top: 10%;
+}
+
+.presentation 
+{
+    float: left;
+    width: 90%;
+    margin-right: 5px;
+    text-align: center;
+    padding-top: 12px;
+    padding: 10px;
+    border-right: ridge;
+    box-shadow: 3px 5px 6px black;
+}
+
+ul, ol 
+{
+    text-align: justify;
+    padding-top: 10px;
+    line-height: 25px;
+}
+
+section 
+{
+    margin-left: 8%;
+}
+
+footer 
+{
+        
+        
+    margin: 10%;
+    border-style: double;
+    border-radius: 10px;
+    background-image:linear-gradient(white, black);
+    text-align: center;
+    box-shadow: 5px  5px 5px black;
+}
+
+
+
+
